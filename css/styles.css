@@ -308,12 +308,18 @@ img {
 }
 .team-container-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   gap: 24px;
+  padding-top: 8px;
 }
 .team-container-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
-  justify-content: center;
 }
 .team-container-link {
   width: 100%;
